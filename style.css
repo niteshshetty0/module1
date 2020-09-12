@@ -1,0 +1,36 @@
+body{
+  background-image: url(nitesh.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container{
+         height: 100vh;
+         display: flex;
+         flex-flow: column wrap;
+         justify-content:center ;
+         align-content: center;
+         align-items: center;
+         margin: 5px;
+     }
+     .items,
+      .items:focus,
+      input[type='text']{
+          width: 20em;
+          margin: 5px;
+          outline: none;
+          border-radius: 10px;
+          padding: 1px 10px;
+          font-size: 40px;
+      }
+      .button
+      {
+        padding: 10px;
+        background-color: black;
+        color:white;
+        
+      }
+      h2{
+        background-color: red;
+        color: white;
+      }
